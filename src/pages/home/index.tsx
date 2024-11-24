@@ -15,7 +15,7 @@ const Home = () => {
 			</h1>
 			
 			<div className="grid grid-cols-4 gap-5">
-				<div>
+				<div className='max-lg:hidden'>
 					<Filter/>
 				</div>
 				<div className="col-span-4 lg:col-span-3">
