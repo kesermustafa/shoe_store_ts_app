@@ -8,7 +8,7 @@ const Price = ({ item }: { item: Shoe }) => {
 	}
 	
 	return (
-		<div className={item.discount ? "text-yellow" : "text-white"}>${item.price}</div>
+		<div className={item.discount ? "text-yellow" : "text-white"}>${price}</div>
 	);
 };
 

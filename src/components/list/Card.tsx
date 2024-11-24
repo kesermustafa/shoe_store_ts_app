@@ -22,10 +22,13 @@ const Card = ({ item }: Props) => {
 			</div>
 			
 			<Link
-				className="bg-gray-dark text-white font-medium px-4 py-2 rounded-[8px] transition hover:bg-black text-center flex items-center justiy-center gap-1"
+				className="bg-gray-dark  text-white font-medium px-4 py-2 rounded-[8px] transition hover:bg-black text-center flex items-center justify-between gap-1"
 				to="/"
 			>
-				Ürünü Görüntüle - <Price item={item} />
+				<span>
+					Ürünü Görüntüle
+				</span>
+				<Price item={item} />
 			</Link>
 		</div>
 	);
