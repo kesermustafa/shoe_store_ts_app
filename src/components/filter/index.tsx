@@ -42,8 +42,8 @@ const Filter = ({close} :{close:()=>void} ) => {
 	}
 	
 	return (
-		<div className="max-lg:fixed max-lg:inset-0 z-10 max-lg:bg-zinc-900 max-lg:bg-opacity-60 backdrop-blur-md grid place-items-center">
-			<div className="lg:w-full max-lg:w-[80%] max-lg:h-[80vh] max-lg:min-w-[380px]">
+		<div className="max-lg:fixed max-lg:inset-0 z-10  max-lg:bg-zinc-900 max-lg:bg-opacity-60 backdrop-blur-md grid place-items-center">
+			<div className="lg:w-full max-lg:w-[80%]   max-lg:min-w-[360px]">
 				<div className="max-lg:bg-white items-center max-lg:flex max-lg:justify-between max-lg:p-4 rounded-t-md">
 					<h2 className="text-xl font-semibold">Filtreler</h2>
 					

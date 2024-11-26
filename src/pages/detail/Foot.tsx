@@ -3,7 +3,7 @@ import { DetailProps } from "../../Types";
 import xss from "xss";
 
 const Foot = ({ data }: DetailProps) => {
-	console.log(data.description);
+	
 	
 	return (
 		<div>

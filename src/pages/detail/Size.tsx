@@ -27,7 +27,7 @@ const Size = ({ data }: DetailProps) => {
 			<h2 className="mb-4 font-semibold">Numara Seçiniz</h2>
 			
 			<div className="grid grid-cols-5 gap-4">
-				{numbers.map((num) => {
+				{numbers.map((num, index) => {
 					// numara seçili mi?
 					const found = selected === num;
 					
@@ -36,6 +36,7 @@ const Size = ({ data }: DetailProps) => {
 					
 					return (
 						<button
+							key={index}
 							disabled={!inStock}
 							type="button"
 							onClick={() => toggle(num)}
