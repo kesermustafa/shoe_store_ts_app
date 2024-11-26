@@ -4,7 +4,6 @@ import xss from "xss";
 
 const Foot = ({ data }: DetailProps) => {
 	
-	
 	return (
 		<div>
 			<div className="flex flex-col gap-2 text-white">
@@ -12,7 +11,7 @@ const Foot = ({ data }: DetailProps) => {
 					<button className="flex-1 p-4 rounded-lg bg-black">Sepete Ekle</button>
 					
 					<button className="bg-black p-4 rounded-lg">
-						<img src="/heart.svg" />
+						<img src="/heart.svg" alt="icon"  />
 					</button>
 				</div>
 				
