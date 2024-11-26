@@ -17,3 +17,7 @@ export type FilterProps<T> = {
 	selected: T;
 	setSelected: React.Dispatch<React.SetStateAction<T>>;
 };
+
+export type DetailProps = {
+	data: Shoe;
+};
